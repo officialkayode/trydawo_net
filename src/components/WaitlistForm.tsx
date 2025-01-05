@@ -13,10 +13,10 @@ const WaitlistForm = () => {
 
   return (
     <div className="bg-primary p-12 rounded-lg shadow-lg mx-auto text-center">
-      <h3 className="text-3xl font-gelasio mb-6 text-text-heading">
+      <h3 className="text-3xl font-gelasio mb-6 text-secondary-light">
         Join the Revolution
       </h3>
-      <p className="text-text-body mb-8 text-lg max-w-2xl mx-auto font-lato">
+      <p className="text-secondary-light mb-8 text-lg max-w-2xl mx-auto font-lato">
         Be part of Africa's startup ecosystem transformation. Connect with local investors and startups building the future.
       </p>
       <Button 
@@ -25,7 +25,7 @@ const WaitlistForm = () => {
       >
         Join Waitlist
       </Button>
-      <p className="text-sm text-text-body mt-6 max-w-xl mx-auto font-lato">
+      <p className="text-sm text-secondary-light mt-6 max-w-xl mx-auto font-lato">
         By joining, you agree to receive updates about Dawo. We respect your privacy and will never share your information.
       </p>
     </div>
