@@ -1,4 +1,4 @@
-import { TrendingUp, Users, Shield, Coins, DollarSign } from "lucide-react";
+import { TrendingUp, Users, Shield, DollarSign } from "lucide-react";
 
 const Stats = () => {
   return (
@@ -8,7 +8,7 @@ const Stats = () => {
           Why Dawo Matters
         </h2>
         <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-          In a time when foreign investment is becoming scarce, we're building a sustainable funding ecosystem that connects African startups with local capital, reducing dependency on dollar-denominated funding.
+          We're building a sustainable funding ecosystem that connects African startups with local capital, enabling communities to participate in and benefit from startup growth while reducing dependency on foreign investment.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="stat-card">
