@@ -19,9 +19,6 @@ const Navigation = () => {
             <Link to="/manifesto" className="text-gray-600 hover:text-primary transition-colors">
               Manifesto
             </Link>
-            <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
-              How It Works
-            </a>
             <Link to="/faq" className="text-gray-600 hover:text-primary transition-colors">
               FAQ
             </Link>
