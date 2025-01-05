@@ -15,6 +15,9 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
+            <a href="#manifesto" className="text-gray-600 hover:text-primary transition-colors">
+              Manifesto
+            </a>
             <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
               How It Works
             </a>
@@ -23,9 +26,6 @@ const Navigation = () => {
             </a>
             <a href="#for-investors" className="text-gray-600 hover:text-primary transition-colors">
               For Investors
-            </a>
-            <a href="#manifesto" className="text-gray-600 hover:text-primary transition-colors">
-              Manifesto
             </a>
             <a href="#about-us" className="text-gray-600 hover:text-primary transition-colors">
               About Us
