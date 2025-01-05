@@ -12,20 +12,13 @@ const Hero = () => {
           <p className="text-xl md:text-2xl mb-8 opacity-90">
             Create local angel investors by giving communities the chance to invest in Africa's future through its startups.
           </p>
-          <div className="flex flex-col md:flex-row gap-6 justify-center">
+          <div className="flex justify-center">
             <Button
               variant="secondary"
               className="cta-button bg-secondary text-secondary-foreground"
-              onClick={() => document.getElementById("startup-form")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("waitlist")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Raise Local Capital <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              variant="outline"
-              className="cta-button bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary"
-              onClick={() => document.getElementById("investor-form")?.scrollIntoView({ behavior: "smooth" })}
-            >
-              Become an Angel Investor <ArrowRight className="ml-2 h-5 w-5" />
+              Join the Waitlist <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>
