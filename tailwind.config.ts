@@ -20,35 +20,25 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#4A148C",
-          foreground: "#ffffff",
+          DEFAULT: "#E5E5E0",
+          foreground: "#312F2B",
         },
         secondary: {
-          DEFAULT: "#FFC107",
-          foreground: "#000000",
+          light: "#D3C1B6",
+          DEFAULT: "#BAB6AA",
+          foreground: "#312F2B",
         },
-        accent: {
-          DEFAULT: "#00796B",
-          foreground: "#ffffff",
+        text: {
+          heading: "#312F2B",
+          body: "#272525",
         },
       },
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
+        gelasio: ["Gelasio", "serif"],
+        lato: ["Lato", "sans-serif"],
       },
-      keyframes: {
-        "fade-up": {
-          "0%": {
-            opacity: "0",
-            transform: "translateY(10px)",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
-        },
-      },
-      animation: {
-        "fade-up": "fade-up 0.5s ease-out",
+      backgroundImage: {
+        'page-gradient': 'linear-gradient(109.6deg, rgba(223,234,247,1) 11.2%, rgba(244,248,252,1) 91.1%)',
       },
     },
   },

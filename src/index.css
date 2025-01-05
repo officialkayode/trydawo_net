@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,12 +6,15 @@
 
 @layer base {
   body {
-    @apply bg-white text-gray-900 font-montserrat;
+    @apply bg-white text-text-body font-lato;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-gelasio text-text-heading;
   }
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #4A148C 0%, #00796B 100%);
+  @apply bg-page-gradient;
 }
 
 .stat-card {
@@ -19,7 +22,7 @@
 }
 
 .cta-button {
-  @apply px-8 py-3 rounded-full font-semibold transform transition-transform hover:scale-105 hover:shadow-lg;
+  @apply px-8 py-3 rounded-full font-semibold transform transition-transform hover:scale-105 hover:shadow-lg bg-secondary text-text-heading;
 }
 
 .section {
