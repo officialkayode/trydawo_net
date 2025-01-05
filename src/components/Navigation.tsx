@@ -16,9 +16,9 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#manifesto" className="text-gray-600 hover:text-primary transition-colors">
+            <Link to="/manifesto" className="text-gray-600 hover:text-primary transition-colors">
               Manifesto
-            </a>
+            </Link>
             <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
               How It Works
             </a>
