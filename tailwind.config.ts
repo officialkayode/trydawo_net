@@ -39,6 +39,7 @@ export default {
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
+        rockSalt: ["Rock Salt", "cursive"],
       },
       backgroundImage: {
         'page-gradient': 'linear-gradient(109.6deg, #DDD6CC 11.2%, #EFECE6 91.1%)',
