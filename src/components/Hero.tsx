@@ -7,10 +7,13 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Community-Powered Funding for African Startups
+            Democratizing Startup Investment in Africa
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
+          <p className="text-xl md:text-2xl mb-4 opacity-90">
             Join Africa's first regulated crowdfunding platform connecting local startups with community investors. Invest in naira, grow with your community.
+          </p>
+          <p className="text-lg mb-8 opacity-80">
+            We're making startup investment as accessible as stock trading, enabling everyday Africans to participate in the growth of innovative startups while helping founders raise local currency funding.
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <Button

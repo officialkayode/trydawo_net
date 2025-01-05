@@ -29,8 +29,8 @@ const WaitlistForm = ({ type }: WaitlistFormProps) => {
       </h3>
       <p className="text-gray-600 mb-6 text-center">
         {type === "investor"
-          ? "Join a new class of African angel investors. Start investing in local startups with as little as ₦50,000."
-          : "Connect with local investors who believe in your vision. Raise funds in Naira from your community."}
+          ? "Join a new class of African angel investors. Start investing in local startups with as little as ₦50,000. Diversify your portfolio while supporting innovation."
+          : "Connect with local investors who believe in your vision. Raise funds in Naira from your community, reduce FX exposure, and build sustainable growth."}
       </p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <Input

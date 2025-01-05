@@ -1,4 +1,4 @@
-import { Building2, Users2, Wallet, Shield } from "lucide-react";
+import { Building2, Users2, Wallet, Shield, TrendingUp, DollarSign } from "lucide-react";
 
 const Features = () => {
   return (
@@ -7,7 +7,7 @@ const Features = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How Dawo Works</h2>
           <p className="text-lg text-gray-600">
-            We're making startup investment as accessible as stock trading, enabling everyday Africans to participate in the growth of innovative startups.
+            We're bridging the gap between local capital and early-stage startups, creating a sustainable funding ecosystem that benefits both founders and investors.
           </p>
         </div>
         
@@ -18,14 +18,21 @@ const Features = () => {
               <Building2 className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-2">Local Currency Fundraising</h4>
-                <p className="text-gray-600">Raise funds in Naira from your community and supporters, reducing FX exposure.</p>
+                <p className="text-gray-600">Raise funds in Naira from your community, reducing FX exposure and currency risks.</p>
               </div>
             </div>
             <div className="flex gap-4">
               <Users2 className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-2">Community Engagement</h4>
-                <p className="text-gray-600">Turn your users and supporters into investors who are invested in your success.</p>
+                <p className="text-gray-600">Turn your users and supporters into investors who are invested in your long-term success.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <TrendingUp className="h-8 w-8 text-primary flex-shrink-0" />
+              <div>
+                <h4 className="font-semibold mb-2">Sustainable Growth</h4>
+                <p className="text-gray-600">Build a strong foundation with local support, reducing dependency on foreign capital.</p>
               </div>
             </div>
           </div>
@@ -36,7 +43,7 @@ const Features = () => {
               <Wallet className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-2">Accessible Investment</h4>
-                <p className="text-gray-600">Invest in promising African startups with amounts you're comfortable with.</p>
+                <p className="text-gray-600">Invest in promising African startups with amounts you're comfortable with, starting from ₦50,000.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -44,6 +51,13 @@ const Features = () => {
               <div>
                 <h4 className="font-semibold mb-2">Protected Investment</h4>
                 <p className="text-gray-600">Invest confidently with our SEC-compliant platform and investor protection frameworks.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <DollarSign className="h-8 w-8 text-primary flex-shrink-0" />
+              <div>
+                <h4 className="font-semibold mb-2">Portfolio Diversification</h4>
+                <p className="text-gray-600">Access pre-IPO startup investments just like you trade stocks on Bamboo.</p>
               </div>
             </div>
           </div>
