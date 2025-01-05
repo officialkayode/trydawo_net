@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -8,21 +9,21 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold text-primary">
+            <Link to="/" className="text-2xl font-bold text-primary">
               Dawo
-            </a>
+            </Link>
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
+            <Link to="/faq" className="text-gray-600 hover:text-primary transition-colors">
+              FAQ
+            </Link>
             <a href="#manifesto" className="text-gray-600 hover:text-primary transition-colors">
               Manifesto
             </a>
             <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
               How It Works
-            </a>
-            <a href="#about-us" className="text-gray-600 hover:text-primary transition-colors">
-              About Us
             </a>
           </div>
 
