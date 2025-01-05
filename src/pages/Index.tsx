@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <main className="pt-16"> {/* Add padding to account for fixed navigation */}
+      <main className="pt-16">
         <Hero />
         <section id="problem" className="section bg-gray-50">
           <div className="container mx-auto px-4">
@@ -30,7 +30,9 @@ const Index = () => {
         <Features />
         <Stats />
         <Vision />
-        <Manifesto />
+        <section id="manifesto" className="section bg-gray-50">
+          <Manifesto />
+        </section>
         <section className="section bg-gray-50" id="waitlist">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
