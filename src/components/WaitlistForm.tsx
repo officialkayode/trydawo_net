@@ -11,7 +11,7 @@ const WaitlistForm = () => {
         Be part of Africa's startup ecosystem transformation. Connect with local investors and startups building the future.
       </p>
       <a 
-        href="https://forms.gle/your-form-link-here" 
+        href="https://tally.so/r/wkOKa6" 
         target="_blank" 
         rel="noopener noreferrer"
       >
