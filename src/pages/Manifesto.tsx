@@ -58,7 +58,7 @@ const Manifesto = () => {
               <p className="text-lg text-gray-600">
                 This is more than a platform—it's a movement. A movement to transform how Africa builds, funds, and scales its future. Together, we can democratize tech investment, strengthen local economies, and elevate African startups to the rightful position as a leader!
               </p>
-              <Link to="/">
+              <Link to="https://tally.so/r/wkOKa6">
                 <Button className="mt-4" size="lg">
                   Join the Movement <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
