@@ -18,7 +18,7 @@ const Features = () => {
               <Building2 className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-2">Local Currency Fundraising</h4>
-                <p className="text-gray-600">Raise your community round in Naira, empowering local innovators while reducing FX exposure and currency risks.</p>
+                <p className="text-gray-600">Raise your community round in Naira, empowering local innovators to build and grow together.</p>
               </div>
             </div>
             <div className="flex gap-4">
