@@ -20,25 +20,28 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#E5E5E0",
+          DEFAULT: "#282824",
           foreground: "#312F2B",
         },
         secondary: {
-          light: "#D3C1B6",
-          DEFAULT: "#BAB6AA",
+          light: "#E8E4DD",
+          DEFAULT: "#DED8CD",
           foreground: "#312F2B",
         },
         text: {
           heading: "#312F2B",
           body: "#272525",
         },
+        background: {
+          DEFAULT: "#EFECE6",
+          page: "#DDD6CC",
+        }
       },
       fontFamily: {
-        gelasio: ["Gelasio", "serif"],
         lato: ["Lato", "sans-serif"],
       },
       backgroundImage: {
-        'page-gradient': 'linear-gradient(109.6deg, rgba(223,234,247,1) 11.2%, rgba(244,248,252,1) 91.1%)',
+        'page-gradient': 'linear-gradient(109.6deg, #DDD6CC 11.2%, #EFECE6 91.1%)',
       },
     },
   },
