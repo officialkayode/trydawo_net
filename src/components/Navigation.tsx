@@ -21,12 +21,6 @@ const Navigation = () => {
             <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
               How It Works
             </a>
-            <a href="#for-startups" className="text-gray-600 hover:text-primary transition-colors">
-              For Startups
-            </a>
-            <a href="#for-investors" className="text-gray-600 hover:text-primary transition-colors">
-              For Investors
-            </a>
             <a href="#about-us" className="text-gray-600 hover:text-primary transition-colors">
               About Us
             </a>
