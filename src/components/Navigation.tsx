@@ -16,15 +16,15 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/faq" className="text-gray-600 hover:text-primary transition-colors">
-              FAQ
-            </Link>
             <a href="#manifesto" className="text-gray-600 hover:text-primary transition-colors">
               Manifesto
             </a>
             <a href="#how-it-works" className="text-gray-600 hover:text-primary transition-colors">
               How It Works
             </a>
+            <Link to="/faq" className="text-gray-600 hover:text-primary transition-colors">
+              FAQ
+            </Link>
           </div>
 
           {/* Right Side Actions */}
