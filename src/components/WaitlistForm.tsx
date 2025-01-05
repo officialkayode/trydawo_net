@@ -1,51 +1,31 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
 
-interface WaitlistFormProps {
-  type: "investor" | "startup";
-}
-
-const WaitlistForm = ({ type }: WaitlistFormProps) => {
-  const [email, setEmail] = useState("");
+const WaitlistForm = () => {
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleJoinWaitlist = () => {
     toast({
-      title: "Thank you for joining!",
+      title: "Thank you for your interest!",
       description: "We'll be in touch soon with more information about early access.",
     });
-    setEmail("");
   };
 
   return (
-    <div id={`${type}-form`} className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
-      <h3 className="text-2xl font-bold mb-4 text-center">
-        {type === "investor" 
-          ? "Become an Angel Investor" 
-          : "Raise Community Capital"}
+    <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto text-center">
+      <h3 className="text-2xl font-bold mb-4">
+        Join the Revolution
       </h3>
-      <p className="text-gray-600 mb-6 text-center">
-        {type === "investor"
-          ? "Join a new class of African angel investors. Start investing in local startups with as little as ₦50,000. Diversify your portfolio while supporting innovation."
-          : "Connect with local investors who believe in your vision. Raise funds in Naira from your community, reduce FX exposure, and build sustainable growth."}
+      <p className="text-gray-600 mb-6">
+        Be part of Africa's startup ecosystem transformation. Connect with local investors and startups building the future.
       </p>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <Input
-          type="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-          className="w-full"
-        />
-        <Button type="submit" className="w-full bg-primary text-white hover:bg-primary/90">
-          Join Waitlist
-        </Button>
-      </form>
-      <p className="text-xs text-gray-500 mt-4 text-center">
+      <Button 
+        onClick={handleJoinWaitlist} 
+        className="w-full bg-primary text-white hover:bg-primary/90"
+      >
+        Join Waitlist
+      </Button>
+      <p className="text-xs text-gray-500 mt-4">
         By joining, you agree to receive updates about Dawo. We respect your privacy and will never share your information.
       </p>
     </div>
