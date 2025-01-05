@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="gradient-bg min-h-[80vh] flex items-center text-white">
+    <div className="gradient-bg min-h-[90vh] flex items-center text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Democratizing Startup Funding in Africa
+            Community-Powered Funding for African Startups
           </h1>
-          <p className="text-xl md:text-2xl mb-12 opacity-90">
-            Join the community revolutionizing how African startups raise capital and how local investors participate in their growth.
+          <p className="text-xl md:text-2xl mb-8 opacity-90">
+            Join Africa's first regulated crowdfunding platform connecting local startups with community investors. Invest in naira, grow with your community.
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <Button
@@ -18,14 +18,14 @@ const Hero = () => {
               className="cta-button bg-secondary text-secondary-foreground"
               onClick={() => document.getElementById("startup-form")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Raise Capital <ArrowRight className="ml-2 h-5 w-5" />
+              Raise Local Capital <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
               variant="outline"
               className="cta-button bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary"
               onClick={() => document.getElementById("investor-form")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Start Investing <ArrowRight className="ml-2 h-5 w-5" />
+              Become an Angel Investor <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>
