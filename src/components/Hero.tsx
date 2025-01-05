@@ -10,7 +10,7 @@ const Hero = () => {
             Empowering Startups, Empowering Communities
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-text-body">
-            Join Africa's first community investment platform connecting startups with local investors through community rounds, creating meaningful relationships that drive growth.
+            Community investment platform connecting startups with local investors through community rounds, creating meaningful relationships that drive growth.
           </p>
           <div className="flex justify-center">
             <Button
