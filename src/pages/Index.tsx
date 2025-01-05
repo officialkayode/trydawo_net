@@ -12,21 +12,6 @@ const Index = () => {
       <Navigation />
       <main className="pt-16">
         <Hero />
-        <section id="problem" className="section bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">The Challenge</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="space-y-6">
-                <h3 className="text-xl font-bold">Access to Capital</h3>
-                <p className="text-gray-600">Early-stage startups in Africa face significant challenges in accessing capital, particularly in local currencies.</p>
-              </div>
-              <div className="space-y-6">
-                <h3 className="text-xl font-bold">Limited Community Involvement</h3>
-                <p className="text-gray-600">Traditional investment models exclude local communities from participating in and benefiting from startup growth.</p>
-              </div>
-            </div>
-          </div>
-        </section>
         <Features />
         <Stats />
         <Vision />
